@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    margin-bottom: 2px;
+    border: 0;
+    box-sizing: border-box;
+}
+.user
+{
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    height: fit-content;
+    border-radius: 15px;
+   
+}
+.user__image
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px;
+}
